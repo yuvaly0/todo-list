@@ -1,0 +1,22 @@
+.todo-task-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px groove gray;
+    margin-top: 3vh;
+    padding: 3px;
+}
+
+.todo-text-marked {
+    text-decoration: line-through;
+}
+
+.todo-text-unmarked {
+
+}
+
+.todo-task-options {
+    display: flex;
+    justify-content: space-around;
+    width: 6vw;
+}
